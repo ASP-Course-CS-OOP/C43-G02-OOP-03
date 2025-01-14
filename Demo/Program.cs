@@ -61,6 +61,12 @@ namespace Demo
 
             #endregion
 
+            #region Part 07 Class Vs Struct [Important]
+
+            // Done [In NoteBook].
+
+            #endregion
+
         }
     }
 }
