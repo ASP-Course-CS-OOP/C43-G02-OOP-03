@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Globalization;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -19,10 +21,10 @@
             //do
             //{
             //    Console.Write("Enter The Id: ");
-            //    IdParsed = int.TryParse(Console.ReadLine(), out id); 
+            //    IdParsed = int.TryParse(Console.ReadLine(), out id);
             //} while (!IdParsed);
 
-            //Console.Write("Enter The Name: " );
+            //Console.Write("Enter The Name: ");
             //string name = Console.ReadLine()!;
 
             //Console.Write("Enter Security Level: ");
@@ -33,18 +35,36 @@
             //do
             //{
             //    Console.Write("Enter Salary: ");
-            //    SalaryParsed = decimal.TryParse(Console.ReadLine(), out salary); 
+            //    SalaryParsed = decimal.TryParse(Console.ReadLine(), out salary);
             //} while (!SalaryParsed);
 
-            //Console.Write("Enter Hiring Date: ");
-            //string hiringDate = Console.ReadLine()!;
+            //Console.WriteLine("Enter Hiring Date => ");
+            //int day, month, year;
+            //bool dayParsed, monthParsed, yearParsed;
+
+            //    do
+            //    {
+            //        Console.Write("Day: ");
+            //        dayParsed = int.TryParse(Console.ReadLine(), out day);
+            //    } while (!dayParsed);
+            //    do
+            //    {
+            //        Console.Write("Month: ");
+            //        monthParsed = int.TryParse(Console.ReadLine(), out month);
+            //    } while (!dayParsed);
+            //    do
+            //    {
+            //        Console.Write("Year: ");
+            //        yearParsed = int.TryParse(Console.ReadLine(), out year);
+            //    } while (!dayParsed);
+            //HiringDate hiringDate = new HiringDate(day, month, year);
 
             //bool GenderParsed;
             //Gender gender;
             //do
             //{
             //    Console.Write("Enter Gender: ");
-            //    GenderParsed = Enum.TryParse<Gender>(Console.ReadLine(), true, out gender); 
+            //    GenderParsed = Enum.TryParse<Gender>(Console.ReadLine(), true, out gender);
             //} while (!GenderParsed);
 
             //Employee employee = new Employee(id, name, secLev, salary, hiringDate, gender);
@@ -58,6 +78,78 @@
             //HiringDate hDate = new HiringDate("1", "1", "2025");
 
             //Console.WriteLine(hDate);
+
+            #endregion
+
+            #region Q3.Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
+
+            //Employee[] empArr = new Employee[3];
+            //HiringDate[] hiringDate = new HiringDate[3];
+            //if (empArr?.Length >= 0)
+            //{
+            //    for (int i = 0; i < empArr.Length; i++)
+            //    {
+            //        Console.WriteLine($"\nEnter Data Of Employee {i + 1}=>\n");
+
+            //        int id;
+            //        bool idParsed;
+            //        do
+            //        {
+            //            Console.Write("Id: ");
+            //            idParsed = int.TryParse(Console.ReadLine(), out id);
+            //        } while (!idParsed);
+
+            //        Console.Write("Name: ");
+            //        string name = Console.ReadLine()!;
+
+            //        Console.Write("Security Level: ");
+            //        SecurityLevel secLev = (SecurityLevel)int.Parse(Console.ReadLine()!);
+
+            //        bool SalaryParsed;
+            //        decimal salary;
+            //        do
+            //        {
+            //            Console.Write("Salary: ");
+            //            SalaryParsed = decimal.TryParse(Console.ReadLine(), out salary);
+            //        } while (!SalaryParsed);
+
+            //        int day, month, year;
+            //        bool dayParsed, monthParsed, yearParsed;
+
+            //            Console.WriteLine($"Hiring Date of Employee {i+1}: ");
+            //            do
+            //            {
+            //                Console.Write("Day: ");
+            //                dayParsed = int.TryParse(Console.ReadLine(), out day);
+            //            } while (!dayParsed);
+            //            do
+            //            {
+            //                Console.Write("Month: ");
+            //                monthParsed = int.TryParse(Console.ReadLine(), out month);
+            //            } while (!dayParsed);
+            //            do
+            //            {
+            //                Console.Write("Year: ");
+            //                yearParsed = int.TryParse(Console.ReadLine(), out year);
+            //            } while (!dayParsed);
+            //            hiringDate[i] = new HiringDate(day, month, year);
+
+            //        bool GenderParsed;
+            //        Gender gender;
+            //        do
+            //        {
+            //            Console.Write("Gender: ");
+            //            GenderParsed = Enum.TryParse<Gender>(Console.ReadLine(), true, out gender);
+            //        } while (!GenderParsed);
+
+            //        empArr[i] = new Employee(id, name, secLev, salary, hiringDate[i], gender);
+            //    }
+            //}
+
+            //foreach (Employee employee in empArr!)
+            //{
+            //    Console.WriteLine(employee);
+            //}
 
             #endregion
 

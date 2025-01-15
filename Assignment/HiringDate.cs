@@ -11,35 +11,35 @@ namespace Assignment
 
         #region Fields
         
-        private string day;
-        private string month;
-        private string year;
+        private int day;
+        private int month;
+        private int year;
 
         #endregion
 
         #region Properties
         
-        public string Day
+        public int Day
         {
             get { return day; }
             set { day = value; }
         }
-        public string Month
+        public int Month
         {
             get { return month; }
             set { month = value; }
         }
-        public string Year
+        public int Year
         {
-            get { return Year; }
-            set { Year = value; }
+            get { return year; }
+            set { year = value; }
         }
 
         #endregion
 
         #region Constructors
-        
-        public HiringDate(string day, string month, string year)
+
+        public HiringDate(int day, int month, int year)
         {
             this.day = day;
             this.month = month;
