@@ -116,23 +116,23 @@ namespace Assignment
             //        int day, month, year;
             //        bool dayParsed, monthParsed, yearParsed;
 
-            //            Console.WriteLine($"Hiring Date of Employee {i+1}: ");
-            //            do
-            //            {
-            //                Console.Write("Day: ");
-            //                dayParsed = int.TryParse(Console.ReadLine(), out day);
-            //            } while (!dayParsed);
-            //            do
-            //            {
-            //                Console.Write("Month: ");
-            //                monthParsed = int.TryParse(Console.ReadLine(), out month);
-            //            } while (!dayParsed);
-            //            do
-            //            {
-            //                Console.Write("Year: ");
-            //                yearParsed = int.TryParse(Console.ReadLine(), out year);
-            //            } while (!dayParsed);
-            //            hiringDate[i] = new HiringDate(day, month, year);
+            //        Console.WriteLine($"Hiring Date of Employee {i + 1}: ");
+            //        do
+            //        {
+            //            Console.Write("Day: ");
+            //            dayParsed = int.TryParse(Console.ReadLine(), out day);
+            //        } while (!dayParsed);
+            //        do
+            //        {
+            //            Console.Write("Month: ");
+            //            monthParsed = int.TryParse(Console.ReadLine(), out month);
+            //        } while (!dayParsed);
+            //        do
+            //        {
+            //            Console.Write("Year: ");
+            //            yearParsed = int.TryParse(Console.ReadLine(), out year);
+            //        } while (!dayParsed);
+            //        hiringDate[i] = new HiringDate(day, month, year);
 
             //        bool GenderParsed;
             //        Gender gender;
@@ -146,10 +146,33 @@ namespace Assignment
             //    }
             //}
 
+            //Console.WriteLine("\nEmployees Before sorting By Hiring Date:");
             //foreach (Employee employee in empArr!)
             //{
             //    Console.WriteLine(employee);
             //}
+
+            #endregion
+
+            #region Q4.Sort the employees based on their hire date then Print the sorted array
+
+            //int boxingUnboxingCount = 0;
+
+            //Array.Sort(empArr, (e1, e2) =>
+            //{
+            //    boxingUnboxingCount++;
+            //    DateTime hireDate1 = new DateTime(e1.HireDate.Year, e1.HireDate.Month, e1.HireDate.Day);
+            //    DateTime hireDate2 = new DateTime(e2.HireDate.Year, e2.HireDate.Month, e2.HireDate.Day);
+            //    return hireDate1.CompareTo(hireDate2);
+            //});
+
+            //Console.WriteLine("\nEmployees After Sorting By Hire Date:");
+            //foreach (Employee employee in empArr)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+
+            //Console.WriteLine($"\nNumber of boxing & unboxing: {boxingUnboxingCount}");
 
             #endregion
 
