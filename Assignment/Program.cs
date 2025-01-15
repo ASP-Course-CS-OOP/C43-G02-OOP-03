@@ -53,6 +53,14 @@
 
             #endregion
 
+            #region Q2.Develop a Class to represent the Hiring Date Data:
+
+            //HiringDate hDate = new HiringDate("1", "1", "2025");
+
+            //Console.WriteLine(hDate);
+
+            #endregion
+
             #endregion
         }
     }
