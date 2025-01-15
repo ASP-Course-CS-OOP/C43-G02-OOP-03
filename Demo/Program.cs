@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using Demo.Inheritance;
+using System.Reflection;
 
 namespace Demo
 {
@@ -64,6 +65,28 @@ namespace Demo
             #region Part 07 Class Vs Struct [Important]
 
             // Done [In NoteBook].
+
+            #endregion
+
+            #region Part 08 Inheritance
+
+            #region Ex01
+
+            //Parent parent = new Parent(5, 5);
+
+            //Console.WriteLine($"Product = {parent.Product()}");//Product = 25
+            //Console.WriteLine(parent);//X = 5,Y = 5 
+
+            #endregion
+
+            #region Ex02
+
+            //Child child = new Child(4, 5, 1);
+
+            //Console.WriteLine(child.Product());//20 [4*5*1]
+            //Console.WriteLine(child);//X = 4,Y = 5,Z = 1
+
+            #endregion
 
             #endregion
 
