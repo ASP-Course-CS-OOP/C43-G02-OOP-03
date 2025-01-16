@@ -1,4 +1,5 @@
-﻿using Demo.Inheritance;
+﻿using Demo.Association.Composition;
+using Demo.Inheritance;
 using System.Reflection;
 
 namespace Demo
@@ -87,6 +88,12 @@ namespace Demo
             //Console.WriteLine(child);//X = 4,Y = 5,Z = 1
 
             #endregion
+
+            #endregion
+
+            #region Part 10 Association [Composition - Aggregation]
+
+            //Done [Check NoteBook And Association Folder].
 
             #endregion
 
