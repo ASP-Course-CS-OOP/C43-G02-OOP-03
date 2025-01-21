@@ -8,17 +8,23 @@ namespace AhmedNasrAssignment
 {
     internal class Calculator
     {
-        public static int Add(int x,int y)
+
+        #region Methods
+        
+        public static int Add(int x, int y)
+        {
+            return x + y;
+        }
+        public static int Add(int x, int y, int z)
+        {
+            return x + y + z;
+        }
+        public static double Add(double x, double y)
         {
             return x + y;
         } 
-        public static int Add(int x,int y,int z)
-        {
-            return x + y+z;
-        }
-        public static double Add(double x,double y)
-        {
-            return x + y;
-        }
+
+        #endregion
+
     }
 }

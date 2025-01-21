@@ -20,6 +20,22 @@
 
             #endregion
 
+            #region Q02 - Create a class named Rectangle with the following constructors:
+
+            //Rectangle rectangle01 = new Rectangle();
+            //Console.WriteLine(rectangle01.Width);//0
+            //Console.WriteLine(rectangle01.Height);//0
+
+            //Rectangle rectangle02 = new Rectangle(5,6);
+            //Console.WriteLine(rectangle02.Width);//5
+            //Console.WriteLine(rectangle02.Height);//6
+
+            //Rectangle rectangle03 = new Rectangle(4);
+            //Console.WriteLine(rectangle03.Width);//4
+            //Console.WriteLine(rectangle03.Height);//4
+
+            #endregion
+
             #endregion
         }
     }
