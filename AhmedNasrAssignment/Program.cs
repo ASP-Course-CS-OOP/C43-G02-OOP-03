@@ -36,7 +36,7 @@
 
             #endregion
 
-            #region Define a class Complex Number that represents a complex number with real and imaginary parts. Overload the +, - operator to add and subtract two complex numbers.
+            #region Q03 - Define a class Complex Number that represents a complex number with real and imaginary parts. Overload the +, - operator to add and subtract two complex numbers.
 
             //Complex c1 = new Complex(1, 2);
             //Complex c2 = new Complex(4, 5);
@@ -44,7 +44,7 @@
             //Complex c4 = c1 - c2;
 
             #region c1+c2
-            
+
             //Console.WriteLine($"c1: {c1}");
             //Console.WriteLine($"c2: {c2}");
             //Console.WriteLine("-----------");
@@ -63,7 +63,14 @@
 
             #endregion
 
+            #region Q04 - Create a base class named Employee with method Work those prints "Employee is working".Create a derived class named Manager that overrides the Work method to print "Manager is managing". Ensure that the Manager class also calls the Work method of the Employee class within its overridden method.
+
+            //Manager manager = new Manager();
+            //manager.Work();
+
             #endregion
+
+        #endregion
         }
-    }
+}
 }

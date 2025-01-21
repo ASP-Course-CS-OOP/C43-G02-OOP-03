@@ -8,8 +8,15 @@ namespace AhmedNasrAssignment
 {
     internal class Complex
     {
+
+        #region Properties
+
         public int Real { get; set; }
         public int Imag { get; set; }
+
+        #endregion
+
+        #region Constructors
 
         public Complex(int real, int imag)
         {
@@ -17,18 +24,22 @@ namespace AhmedNasrAssignment
             Imag = imag;
         }
 
+        #endregion
+
+        #region Methods
+
         public static Complex operator +(Complex c1, Complex c2)
         {
             int real = (c1?.Real ?? 0) + (c2?.Real ?? 0);
             int imag = (c1?.Imag ?? 0) + (c2?.Imag ?? 0);
-            return new Complex(real,imag) ;
+            return new Complex(real, imag);
 
-        } 
+        }
         public static Complex operator -(Complex c1, Complex c2)
         {
             int real = (c1?.Real ?? 0) - (c2?.Real ?? 0);
             int imag = (c1?.Imag ?? 0) - (c2?.Imag ?? 0);
-            return new Complex(real,imag) ;
+            return new Complex(real, imag);
 
         }
 
@@ -36,5 +47,8 @@ namespace AhmedNasrAssignment
         {
             return $"{Real} + {Imag}i";
         }
+        #endregion
+
     }
+
 }
