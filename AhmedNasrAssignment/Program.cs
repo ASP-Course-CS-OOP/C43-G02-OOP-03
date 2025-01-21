@@ -70,7 +70,19 @@
 
             #endregion
 
-        #endregion
+            #region Q05 - Create a base class BaseClass with a virtual method DisplayMessage that prints "Message from BaseClass".
+
+            //BaseClass baseClass = new DerivedClass1();
+            //baseClass.DisplayMessage();// Message from DerivedClass1 - [Bind the function call to the last override of DisplayMessage() in range of overriding chain from Class "BaseClass" to "class DerivedClass1" using CLR in run time] [Dynamic Binding ]
+
+            //baseClass = new DerivedClass2();
+            //baseClass.DisplayMessage();// Message from BaseClass - [Bind the function call to the function of the reference class type - which is the function of "BaseClass" using compiler in compile time]
+
+
+
+            #endregion
+
+            #endregion
         }
-}
+    }
 }
