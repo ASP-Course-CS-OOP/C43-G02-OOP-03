@@ -36,6 +36,33 @@
 
             #endregion
 
+            #region Define a class Complex Number that represents a complex number with real and imaginary parts. Overload the +, - operator to add and subtract two complex numbers.
+
+            //Complex c1 = new Complex(1, 2);
+            //Complex c2 = new Complex(4, 5);
+            //Complex c3 = c1 + c2;
+            //Complex c4 = c1 - c2;
+
+            #region c1+c2
+            
+            //Console.WriteLine($"c1: {c1}");
+            //Console.WriteLine($"c2: {c2}");
+            //Console.WriteLine("-----------");
+            //Console.WriteLine($"c3: {c3}");
+
+            #endregion
+
+            #region c1-c2
+
+            //Console.WriteLine($"c1: {c1}");
+            //Console.WriteLine($"c2: {c2}");
+            //Console.WriteLine("-----------");
+            //Console.WriteLine($"c4: {c4}");
+
+            #endregion
+
+            #endregion
+
             #endregion
         }
     }
