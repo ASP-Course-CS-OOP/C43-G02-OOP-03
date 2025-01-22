@@ -1,4 +1,6 @@
-﻿namespace AhmedNasrAssignment
+﻿using System.Runtime.CompilerServices;
+
+namespace AhmedNasrAssignment
 {
     internal class Program
     {
@@ -82,6 +84,168 @@
 
 
             #endregion
+
+            #endregion
+
+            #region Part02
+
+            #region Q1 - Q3
+
+            //Duration d1 = new Duration(1, 10, 15);
+            //Console.WriteLine(d1);// Hours: 1, Minuites: 10, Seconds: 15
+
+            //Duration d2 = new Duration(3600);
+            //Console.WriteLine(d2);// Hours: 1, Minuites: 0, Seconds: 0
+
+            //Duration d3 = new Duration(7800);
+            //Console.WriteLine(d3);// Hours: 2, Minuites: 10, Seconds: 0
+
+            //Duration d4 = new Duration(666);
+            //Console.WriteLine(d4);// Minuites: 11, Seconds: 6 
+
+            #endregion
+
+            #region Q4
+
+            #region D3=D1+D2
+
+            //Duration d1 = new Duration(3600);
+            //Duration d2 = new Duration(4700);
+            //Duration d3 = d1 + d2;
+
+            //Console.WriteLine($"d1: {d1}");// d1: Hours: 1, Minuites: 0, Seconds: 0
+            //Console.WriteLine($"d2: {d2}");// d2: Hours: 1, Minuites: 18, Seconds: 20
+            //Console.WriteLine($"d3: {d3}");// d3: Hours: 2, Minuites: 18, Seconds: 20
+
+            #endregion
+
+            #region D3=D1 + 7800
+
+            //Duration d1 = new Duration(3600);
+            //int d2 = 7800;
+            //Duration d3 = d1 + d2;
+
+            //Console.WriteLine($"d1: {d1}");// d1: Hours: 1, Minuites: 0, Seconds: 0
+            //Console.WriteLine($"d2: {d2}");// d2: 7800
+            //Console.WriteLine($"d3: {d3}");// d3: Hours: 3, Minuites: 10, Seconds: 0
+
+            #endregion
+
+            #region D3=666+D3
+
+            //int d1 = 666;
+            //Duration d2 = new Duration(3600);
+            //Duration d3 = d1 + d2;
+
+            //Console.WriteLine($"d1: {d1}");// d1: 666
+            //Console.WriteLine($"d2: {d2}");// d2: Hours: 1, Minuites: 0, Seconds: 0
+            //Console.WriteLine($"d3: {d3}");// d3: Hours: 1, Minuites: 11, Seconds: 6
+
+            #endregion
+
+            #region D3= ++D1 (Increase One Minute)
+
+            //Duration d1 = new Duration(4700);
+            //Duration d2 = new Duration(3600);
+
+            //Console.WriteLine($"d1: {d1}");// d1: Hours: 1, Minuites: 18, Seconds: 20
+
+            //Duration d3 = ++d1;
+
+            //Console.WriteLine($"d3: {d3}");// d3: Hours: 1, Minuites: 19, Seconds: 20
+
+            #endregion
+
+            #region D3 = --D2 (Decrease One Minute)
+
+            //Duration d2 = new Duration(4750);
+
+            //Console.WriteLine($"d2: {d2}");// d1: Hours: 1, Minuites: 19, Seconds: 20
+
+            //Duration d3 = --d2;
+
+            //Console.WriteLine($"d3: {d3}");// d3: Hours: 1, Minuites: 18, Seconds: 20
+
+            #endregion
+
+            #region D1= D1 -D2
+
+            //Duration d1 = new Duration(3600);
+            //Duration d2 = new Duration(4700);
+            //Console.WriteLine($"d1: {d1}");
+            //Console.WriteLine($"d2: {d2}");
+            //d1 = d1 - d2;
+            //Console.WriteLine($"d1: {d1}");
+
+
+            #endregion
+
+            #region If (D1>D2)
+
+            //Duration d1 = new Duration(4700);
+            //Duration d2 = new Duration(3600);
+
+            //Console.WriteLine($"d1: {d1}");
+            //Console.WriteLine($"d2: {d2}");
+            //if (d1 > d2)
+            //{
+            //    Console.WriteLine("d1 is greater than d2!");
+            //}
+            //else if (d1 < d2)
+            //{
+            //    Console.WriteLine("d1 is less than d2!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("d1 equals d2");
+            //}
+
+            #endregion
+
+            #region If (D1<=D2)
+
+            //Duration d1 = new Duration(2600);
+            //Duration d2 = new Duration(3600);
+
+            //Console.WriteLine($"d1: {d1}");
+            //Console.WriteLine($"d2: {d2}");
+            //if (d1 <= d2)
+            //{
+            //    Console.WriteLine("d1 is less than or equal d2!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("d1 is Greater than or equal d2!");
+
+            //}
+
+            #endregion
+
+            #region If (D1)
+
+            //Duration d1 = new Duration(2600);
+
+            //if ((bool)d1)
+            //{
+            //    Console.WriteLine("d1 is non zero!");
+            //}
+
+
+            #endregion
+
+            #region DateTime Obj = (DateTime) D1
+
+            //Duration d1 = new Duration(2750);
+
+            //DateTime Obj = (DateTime)d1;
+
+            //Console.WriteLine(Obj.ToString("HH:mm:ss"));
+
+            #endregion
+
+
+            #endregion
+
 
             #endregion
 
